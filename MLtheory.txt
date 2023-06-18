@@ -1,0 +1,54 @@
+Practical-1 (Linear Regression)
+-Linear regression is one of the easiest and most popular Machine Learning algorithms.
+-It is a statistical method that is used for predictive analysis. 
+-Linear regression makes predictions for continuous/real or numeric variables such as sales, salary, age, product price, etc.
+-Linear regression algorithm shows a linear relationship between a dependent (y) and one or more independent (y) variables, hence called as linear regression.
+-Since linear regression shows the linear relationship, which means it finds how the value of the dependent variable is changing according to the value of the independent variable.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Practical-2 (Decision Tree)
+-Decision Tree is a Supervised learning technique that can be used for both classification and Regression problems, but mostly it is preferred for solving Classification problems. 
+-It is a tree-structured classifier, where internal nodes represent the features of a dataset, branches represent the decision rules and each leaf node represents the outcome.
+-In a Decision tree, there are two nodes, which are the Decision Node and Leaf Node. Decision nodes are used to make any decision and have multiple branches,
+-whereas Leaf nodes are the output of those decisions and do not contain any further branches
+Step-1: Begin the tree with the root node, says S, which contains the complete dataset.
+Step-2: Find the best attribute in the dataset using Attribute Selection Measure (ASM).
+Step-3: Divide the S into subsets that contains possible values for the best attributes.
+Step-4: Generate the decision tree node, which contains the best attribute.
+Step-5: Recursively make new decision trees using the subsets of the dataset created in step -3. Continue this process until a stage is reached where you cannot further classify the nodes and called the final node as a leaf node.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Practical-3 (PCA)
+-Principal Component Analysis is an unsupervised learning algorithm that is used for the dimensionality reduction in machine learning. 
+-It is a statistical process that converts the observations of correlated features into a set of linearly uncorrelated features with the help of orthogonal transformation. These new transformed features are called the Principal Components
+-PCA works by considering the variance of each attribute because the high attribute shows the good split between the classes, and hence it reduces the dimensionality. 
+-Some real-world applications of PCA are image processing, movie recommendation system, optimizing the power allocation in various communication channels
+1.Getting the dataset 
+2.Representing data into a structure 
+3.Standardizing the data
+4.Calculating the Covariance of Z
+5.Calculating the Eigen Values and Eigen Vectors
+6.Sorting the Eigen Vectors
+7.Calculating the new features Or Principal Components
+8.Remove less or unimportant features from the new dataset.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Practical-4 (Navie Bayes)
+-Naïve Bayes algorithm is a supervised learning algorithm, which is based on Bayes theorem and used for solving classification problems.
+-It is mainly used in text classification that includes a high-dimensional training dataset.
+-Naïve Bayes Classifier is one of the simple and most effective Classification algorithms which helps in building the fast machine learning models that can make quick predictions.
+-It is a probabilistic classifier, which means it predicts on the basis of the probability of an object.
+-Some popular examples of Naïve Bayes Algorithm are spam filtration, Sentimental analysis, and classifying articles.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Practical-5 (Kmeans)
+-K-Means Clustering is an unsupervised learning algorithm that is used to solve the clustering problems in machine learning or data science.
+-In this topic, we will learn what is K-means clustering algorithm, how the algorithm works, along with the Python implementation of k-means clustering.
+Step-1: Select the number K to decide the number of clusters.
+Step-2: Select random K points or centroids. (It can be other from the input dataset).
+Step-3: Assign each data point to their closest centroid, which will form the predefined K clusters.
+Step-4: Calculate the variance and place a new centroid of each cluster.
+Step-5: Repeat the third steps, which means reassign each datapoint to the new closest centroid of each cluster.
+Step-6: If any reassignment occurs, then go to step-4 else go to FINISH.
+Step-7: The model is ready.
